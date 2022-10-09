@@ -33,12 +33,12 @@ body {
 }
 
 .navbar a:hover {
-  background-color: var(--color-accent-dark);
+  background-color: pink;
   transition: all 0.3s ease;
 }
 
 .navbar {
-  border-bottom: 3px solid var(--color-accent);
+  border-bottom: 3px solid pink;
 }
 
 .navbar ul {
@@ -51,27 +51,27 @@ body {
 .navbar li {}
 
 .navbar li ul {
-  background-color: var(--color-accent);
+  background-color: violet;
   min-width: 200px;
   position: absolute;
   display: none;
-  box-shadow: 2px 5px 10px var(--color-accent-dark);
+  box-shadow: 2px 5px 20px pink;
 }
 
 .navbar li ul li {
-  border: 1px solid var(--color-accent-dark);
+  border: 1px solid palevioletred;
   position: relative;
 }
 
 .navbar__list-first {
   display: flex;
   justify-content: center;
-  background-color: var(--color-dark);
+  background-color: violet;
   z-index: 1;
 }
 
 .navbar__list-second {
-  border: 2px solid var(--color-accent);
+  border: 2px solid pink;
   /* position: absolute; */
   z-index: 2;
 }
